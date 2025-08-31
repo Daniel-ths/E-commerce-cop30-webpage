@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazônia Viva - E-commerce</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #155d27;
+    }
+    .navbar-brand, .nav-link, .footer-text {
+      color: #fff !important;
+    }
+    .hero {
+      background: url("https://images.unsplash.com/photo-1508780709619-79562169bc64") center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .footer {
+      background-color: #155d27;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+    }
+    .btn-custom {
+      background-color: #27ae60;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #1e874b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🌿 Amazônia Viva</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero text-center">
+    <div>
+      <h1>Produtos Sustentáveis da Amazônia</h1>
+      <p class="lead">Direto da floresta para a sua casa 🌱</p>
+      <a href="#produtos" class="btn btn-custom btn-lg mt-3">Conhecer Produtos</a>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Nossos Produtos</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1590080876275-98a06c1a3f6b" class="card-img-top" alt="Cacau Orgânico">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cacau Orgânico</h5>
+            <p class="card-text">R$ 50,00 / Kg</p>
+            <a href="#" class="btn btn-custom">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc" class="card-img-top" alt="Óleo de Andiroba">
+          <div class="card-body text-center">
+            <h5 class="card-title">Óleo de Andiroba</h5>
+            <p class="card-text">R$ 35,00 / 100ml</p>
+            <a href="#" class="btn btn-custom">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" class="card-img-top" alt="Chocolate Artesanal">
+          <div class="card-body text-center">
+            <h5 class="card-title">Chocolate Artesanal</h5>
+            <p class="card-text">R$ 20,00 / Barra</p>
+            <a href="#" class="btn btn-custom">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="fw-bold">Sobre a Cooperativa</h2>
+        <p>
+          A <strong>Amazônia Viva</strong> é uma cooperativa comprometida com a preservação da floresta
+          e o fortalecimento das comunidades locais. Trabalhamos com produtos sustentáveis e de alta qualidade,
+          conectando você com a riqueza da Amazônia.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1523978591478-c753949ff840" class="img-fluid rounded shadow" alt="Amazônia">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text mb-0">© 2025 Amazônia Viva - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
